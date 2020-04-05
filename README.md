@@ -110,7 +110,7 @@ WITH params AS (
 ```
 ## Result
 
-<img src="images/q3.png" width="200" height="200" alt="q3" />
+<img src="images/q3.png" width="500" height="200" alt="q3" />
 
 After feature selection the most important and our main work is to which machine learning model we have to use to forecast fare of taxi trip.
 
@@ -148,7 +148,7 @@ WITH
 ```
 
 ## Output
-<img src="images/model_create.png" width="200" height="200" alt="model_create" />
+<img src="images/model_create.png" width="500" height="200" alt="model_create" />
 
 ## Evaluation of Model
 
@@ -187,7 +187,7 @@ FROM
 ```
 
 ## Output
-<img src="images/q4.png" width="200" height="200" alt="q4" />
+<img src="images/q4.png" width="500" height="200" alt="q4" />
 
 As we see from the last output our model is trained and the root mean squared error is 9.82. Now we have to start the Forecasting of trips fare.
 
@@ -226,7 +226,7 @@ ml.PREDICT(MODEL `taxi.taxifare_model`, (
 ```
 
 ## Output
-<img src="images/predicted.png" width="200" height="200" alt="predicted" />
+<img src="images/predicted.png" width="500" height="200" alt="predicted" />
 
 ## Conclusion:
 
