@@ -69,7 +69,7 @@ ORDER BY 1
 
 ### Result
 ```
-(https://github.com/dev-salmanahmed/BQ-ML/blob/master/images/q1.png)
+![Drag Racing](https://github.com/dev-salmanahmed/BQ-ML/blob/master/images/q1.png)
 ```
 
 During the day, the average speed is around 11-12 MPH; but at 5:00 AM the average speed almost doubles to 21 MPH. Intuitively this makes sense since there is likely less traffic on the road at 5:00 AM.
