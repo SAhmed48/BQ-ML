@@ -2,11 +2,11 @@
 
 # Predict Taxi Fare with a BigQuery ML Forecasting Model
 
-In this project, we will explore millions of New York City yellow taxi cab trips using **yellow_trips_2015** dataset. We will create a machine learning model inside of BigQuery to predict the fare of the cab ride given model inputs. Lastly, we will evaluate the performance of your model and make predictions with it.
+In this project, I explored millions of New York City yellow taxi cab trips using **yellow_trips_2015** dataset. I created a machine learning model inside of BigQuery to predict the fare of the cab ride given model inputs. Lastly, I evaluated the performance of model and make predictions with it.
 
 # Objectives
 
-In this project, we will perform the following tasks:
+In this project, I performed the following tasks:
 
  - Use BigQuery to find public datasets.
  - Query and explore the public taxi cab dataset.
@@ -75,7 +75,7 @@ After exploring the dataset, Now we have to move to identify our objective.
 
 # Identify our main objective
 
-We will now create a ML model in BigQuery to predict the price of a cab ride in New York City given the historical dataset of trips and trip data. *Predicting the fare before the ride could be very useful for trip planning for both the rider and the taxi agency.*
+Our objective is to create a ML model in BigQuery to predict the price of a cab ride in New York City given the historical dataset of trips and trip data. *Predicting the fare before the ride could be very useful for trip planning for both the rider and the taxi agency.*
 
 
 ## Feature Selection.
@@ -112,7 +112,7 @@ WITH params AS (
 
 <img src="images/q3.png" width="800" height="200" alt="q3" />
 
-After feature selection the most important and our main work is to which machine learning model we have to use to forecast fare of taxi trip.
+After feature selection the most important thing is which machine learning model we use to forecast fare of taxi trip.
 
 ### ML model creation in BigQuery
 
