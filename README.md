@@ -69,7 +69,7 @@ ORDER BY 1
 
 ### Result
 ```
-/images/q2.png
+(https://github.com/dev-salmanahmed/BQ-ML/blob/master/images/q1.png)
 ```
 
 During the day, the average speed is around 11-12 MPH; but at 5:00 AM the average speed almost doubles to 21 MPH. Intuitively this makes sense since there is likely less traffic on the road at 5:00 AM.
@@ -115,7 +115,7 @@ WITH params AS (
 ## Result
 
 ```
-images/q3.png
+(https://github.com/dev-salmanahmed/BQ-ML/blob/master/images/q3.png)
 ```
 
 After feature selection the most important and our main work is to which machine learning model we have to use to forecast fare of taxi trip.
@@ -155,7 +155,7 @@ WITH
 
 ##Output
 ```
-images/model_create.png
+(https://github.com/dev-salmanahmed/BQ-ML/blob/master/images/model_create.png)
 ```
 
 ## Evaluation of Model
@@ -196,7 +196,7 @@ FROM
 
 ##Output
 ```
-images/q4.png
+(https://github.com/dev-salmanahmed/BQ-ML/blob/master/images/q4.png)
 ```
 
 As we see from the last output our model is trained and the root mean squared error is 9.82. Now we have to start the Forecasting of trips fare.
@@ -237,7 +237,7 @@ ml.PREDICT(MODEL `taxi.taxifare_model`, (
 
 ##Output
 ```
-images/predicted.png
+(https://github.com/dev-salmanahmed/BQ-ML/blob/master/images/predicted.png)
 ```
 
 ## Conclusion:
