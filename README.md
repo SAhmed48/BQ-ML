@@ -1,10 +1,8 @@
-# BQ-ML
-
 # Predict Taxi Fare with a BigQuery ML Forecasting Model
 
 In this project, I explored millions of New York City yellow taxi cab trips using **yellow_trips_2015** dataset. I created a machine learning model inside of BigQuery to predict the fare of the cab ride given model inputs. Lastly, I evaluated the performance of model and make predictions with it.
 
-# Objectives
+## Objectives
 
 In this project, I performed the following tasks:
 
@@ -14,7 +12,7 @@ In this project, I performed the following tasks:
  - Create a forecasting model in **BQML**.
  - Evaluate the performance of your machine learning model.
 
-# Task 1
+### Task 1
 
 In this task, log in with your google account and open https://console.cloud.google.com.
 
@@ -25,7 +23,7 @@ In this task, log in with your google account and open https://console.cloud.goo
  - Import your dataset by uploading it or import it from any other external sources. 
  - I used **New York City** taxi public dataset in this project.
 
-## Task 2
+### Task 2
 ### Explore NYC taxi cab data.
 
 ## How many trips did Yellow taxis take each month in 2015?
@@ -45,7 +43,7 @@ ORDER BY 1
 ### Result
 <img src="images/q1.png" width="300" height="300" alt="q1" />
 
-## What was the average speed of Yellow taxi trips in 2015?
+### What was the average speed of Yellow taxi trips in 2015?
 
 ### Query:
 ```
@@ -73,12 +71,12 @@ During the day, the average speed is around 11-12 MPH; but at 5:00 AM the averag
 
 After exploring the dataset, Now we have to move to identify our objective.
 
-# Identify our main objective
+### Identify our main objective
 
 Our objective is to create a ML model in BigQuery to predict the price of a cab ride in New York City given the historical dataset of trips and trip data. *Predicting the fare before the ride could be very useful for trip planning for both the rider and the taxi agency.*
 
 
-## Feature Selection.
+### Feature Selection.
 
 ```
 #standardSQL
@@ -108,7 +106,7 @@ WITH params AS (
   SELECT * FROM taxitrips;
 
 ```
-## Result
+### Result
 
 <img src="images/q3.png" width="800" height="200" alt="q3" />
 
@@ -147,10 +145,10 @@ WITH
    SELECT * FROM Taxitrips
 ```
 
-## Output
+### Output
 <img src="images/model_create.png" width="100" height="100" alt="model_create" />
 
-## Evaluation of Model
+### Evaluation of Model
 
 ```
 #standardSQL
@@ -186,12 +184,12 @@ FROM
   ))
 ```
 
-## Output
+### Output
 <img src="images/q4.png" width="200" height="100" alt="q4" />
 
 As we see from the last output our model is trained and the root mean squared error is 9.82. Now we have to start the Forecasting of trips fare.
 
-# Forecast fare of trips
+### Forecasting fare of trips
 
 ``` 
 #standardSQL
