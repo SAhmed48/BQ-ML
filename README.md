@@ -145,9 +145,6 @@ WITH
    SELECT * FROM Taxitrips
 ```
 
-### Output
-<img src="images/model_create.png" width="200" height="100" alt="model_create" />
-
 ### Evaluation of Model
 
 ```
@@ -183,11 +180,7 @@ FROM
     	SELECT * FROM taxitrips 
   ))
 ```
-
-### Output
-<img src="images/q4.png" width="250" height="150" alt="q4" />
-
-As we see from the last output our model is trained and the root mean squared error is 9.82. Now we have to start the Forecasting of trips fare.
+As we see from the last output our model is trained and the root mean squared error is 9.4 . Now we have to start the Forecasting of trips fare.
 
 ### Forecasting fare of trips
 
