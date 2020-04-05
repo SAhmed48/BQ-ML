@@ -230,4 +230,11 @@ ml.PREDICT(MODEL `taxi.taxifare_model`, (
 
 ## Conclusion:
 
-We used BigQuery Machine Learning (BQML) and trained our model on New York taxi dataset to forecast the trips fare. 
+We used BigQuery Machine Learning (BQML) and trained our model on New York taxi dataset to forecast the trips fare.
+
+## Authors
+
+* **Salman Ahmed** - *Initial work* - [SalmanAhmed](https://github.com/dev-salmanahmed)
+
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
