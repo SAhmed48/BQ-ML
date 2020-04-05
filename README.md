@@ -43,9 +43,7 @@ GROUP BY 1
 ORDER BY 1
 ```
 ### Result
-```
-images/q1.png
-```
+<img src="images/q1.png" width="300" height="300" alt="q1" />
 
 ## What was the average speed of Yellow taxi trips in 2015?
 
@@ -68,9 +66,7 @@ ORDER BY 1
 ```
 
 ### Result
-```
-![Drag Racing](https://github.com/dev-salmanahmed/BQ-ML/blob/master/images/q1.png)
-```
+<img src="images/q2.png" width="300" height="500" alt="q2" />
 
 During the day, the average speed is around 11-12 MPH; but at 5:00 AM the average speed almost doubles to 21 MPH. Intuitively this makes sense since there is likely less traffic on the road at 5:00 AM.
 
