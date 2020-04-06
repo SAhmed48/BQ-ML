@@ -4,8 +4,6 @@ In this project, I explored millions of New York City yellow taxi cab trips usin
 
 ## Objectives
 
-In this project, I performed the following tasks:
-
  - Use BigQuery to import public datasets.
  - Query and explore the public taxi cab dataset.
  - Create a training and evaluation dataset to be used for batch prediction.
@@ -14,7 +12,7 @@ In this project, I performed the following tasks:
 
 ### Task 1
 
-In this task, log in with your google account and open https://console.cloud.google.com.
+In this task, log in with your google account in google and open https://console.cloud.google.com.
 
  - Create new project.
  - In the left side bar scroll to Big Data section and click on *Big Query*. This will open BigQuery webView UI for you.
@@ -110,7 +108,7 @@ WITH params AS (
 
 <img src="images/q3.png" width="800" height="200" alt="q3" />
 
-After feature selection the most important thing is which machine learning model we use to forecast fare of taxi trip.
+After feature selection the most important thing is which machine learning model we need use to forecast fare of taxi trip.
 
 ### ML model creation in BigQuery
 
@@ -180,9 +178,9 @@ FROM
     	SELECT * FROM taxitrips 
   ))
 ```
-As we see from the last output our model is trained and the root mean squared error is 9.4 . Now we have to start the Forecasting of trips fare.
+As we see from the last output the model is trained and the root mean squared error is 9.4 . Now we have to start forecasting trips fare.
 
-### Forecasting fare of trips
+### Forecasting fare
 
 ``` 
 #standardSQL
@@ -221,11 +219,9 @@ ml.PREDICT(MODEL `taxi.taxifare_model`, (
 
 ## Conclusion:
 
-We used BigQuery Machine Learning (BQML) and trained our model on New York taxi dataset to forecast the trips fare.
+I used BigQuery Machine Learning (BQML) and trained machine learning model on New York taxi dataset to forecast the trips fare.
 
 ## Authors
 
 * **Salman Ahmed** - *Initial work* - [SalmanAhmed](https://github.com/dev-salmanahmed)
 
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
