@@ -6,7 +6,7 @@ In this project, I explored millions of New York City yellow taxi cab trips usin
 
 In this project, I performed the following tasks:
 
- - Use BigQuery to find public datasets.
+ - Use BigQuery to import public datasets.
  - Query and explore the public taxi cab dataset.
  - Create a training and evaluation dataset to be used for batch prediction.
  - Create a forecasting model in **BQML**.
